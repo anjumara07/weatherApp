@@ -1,0 +1,14 @@
+.inputBoxDropdown{
+    padding: 10px;
+    height: 80px;
+    margin: 0px 30px;
+    position: relative;
+    overflow: auto;
+}
+
+.dataDiv{
+    padding: 10px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer
+}

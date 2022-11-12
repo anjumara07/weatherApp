@@ -1,0 +1,75 @@
+.sevenDay{
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.sevenDay > div{
+    width: 10%;
+    font-weight: 500; 
+    border: 2px solid white;
+    padding: 0 5%
+}
+
+.sevenDay > div:hover{
+    border: 2px solid skyblue;
+    border-radius: 10px; 
+}
+
+.sevenDay .daily-temp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sevenDay img{
+   width: 90%
+}
+
+.graph-div{
+    position: relative;
+    width:80%;
+    margin:auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.current-temp-img{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+
+strong{
+    font-weight: 700;
+    font-size: 40px
+}
+
+.current-img img{
+    max-width:80px;
+    height: 80px;
+}
+
+.pressHumid {
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between;
+}
+.pressHumid > div{
+
+    width: 40%;
+    padding: 5% 0 5% 5%;
+    margin-bottom:20px;
+    text-align: start;
+    background-color: rgb(243,251,255);
+}
+
+.pressure, .humidity{
+    font-weight: 700;
+    font-size: 20px
+}

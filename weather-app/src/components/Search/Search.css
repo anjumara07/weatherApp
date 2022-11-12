@@ -1,0 +1,36 @@
+.inputBox{
+    padding: 10px;
+    height: 50px;
+    margin: 30px 30px 0 30px;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inputBox .mapIcon, .searchIcon{
+    position: absolute;
+    top: 50%;
+    font-size:25px;
+    transform: translateY(-50%)
+}
+
+.mapIcon{
+    left:15px;
+}
+
+.searchIcon{
+    right:15px;
+}
+
+.input{
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    height: calc(100% - 20px);
+    padding: 0 15px;
+    font-size:25px;
+    font-weight:500;
+    border: 0;
+    outline: 0;
+}
