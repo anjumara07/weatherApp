@@ -9,7 +9,7 @@ export const Search = () =>{
 
   const getCity = () => {
     let inputCity = mapData.filter((ele)=>{
-      return (ele.city).toLowerCase().includes(city)
+      return (ele.city).toLowerCase().includes(city.toLowerCase())
     })
     city.length?setData(inputCity):setData([])
   };
